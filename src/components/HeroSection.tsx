@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Instagram} from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -22,7 +22,7 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Digital Marketing Expert | Guest Posting Specialist | Helping businesses grow their online presence through strategic SEO and content marketing
           </p>
-          
+
           {/* Social Media Icons */}
           <div className="flex justify-center space-x-6 mb-8">
             {socialLinks.map((social, index) => (
@@ -40,22 +40,30 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
+            {/* Download CV Button using the same Button component */}
+            <Button
+              size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground animate-slide-in-left"
+              asChild
+            >
+              <a href="/cv/waleed-cv.pdf" download>
+                Download CV
+              </a>
+            </Button>
+
+            {/* Get In Touch Button */}
+            <Button
+              variant="outline"
+              size="lg"
+              className="animate-slide-in-right"
               onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Get In Touch
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="animate-slide-in-right"
-              onClick={() => document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Learn More
-            </Button>
           </div>
+
+
+
         </div>
 
         {/* Scroll Indicator */}
