@@ -22,7 +22,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "bundler",         // ✅ This is required for Vite/Rollup
+    "moduleResolution": "bundler",       
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {

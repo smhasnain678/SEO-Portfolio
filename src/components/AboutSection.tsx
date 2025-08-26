@@ -4,12 +4,10 @@ import waleed from '../assets/waleed.jpeg'; // adjust the path as needed
 
 const AboutSection = () => {
   const highlights = [
-    "5+ Years of SEO Experience",
-    "200+ Successful Projects",
+    "1+ Years of SEO Experience",
     "Expert in Guest Posting",
     "Digital Marketing Strategist",
-    "Google Analytics Certified",
-    "Content Marketing Specialist"
+    "Google Analytics Certified"
   ];
 
   return (
@@ -47,10 +45,10 @@ const AboutSection = () => {
             <Card className="border-none shadow-lg">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-foreground mb-6">
-                  Professional SEO & Digital Marketing Expert
+                  Professional SEO & Digital Marketing Specialist
                 </h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  With over 5 years of experience in the digital marketing industry, I specialize in
+                  With over 1 years of experience in the digital marketing industry, I specialize in
                   Search Engine Optimization, guest posting, and comprehensive digital marketing strategies.
                   I help businesses improve their online visibility and drive organic traffic through
                   data-driven SEO techniques.
