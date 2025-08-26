@@ -119,7 +119,7 @@ const ContactSection = () => {
                 <div className="mt-8 space-y-4">
                   <Button 
                     className="w-full bg-primary hover:bg-primary/90"
-                    onClick={() => window.open('https://wa.me/923001234567', '_blank')}
+                    onClick={() => window.open('https://wa.me/923113192566', '_blank')}
                   >
                     <MessageCircle className="h-4 w-4 mr-2" />
                     WhatsApp Me
@@ -133,17 +133,6 @@ const ContactSection = () => {
                     Send Email
                   </Button>
                 </div>
-
-                {/* Availability */}
-                {/* <div className="mt-8 p-4 bg-primary/5 rounded-lg">
-                  <h4 className="font-semibold text-foreground mb-2">Availability</h4>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Monday - Friday: 9:00 AM - 6:00 PM (PKT)
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    Weekend: Available for urgent projects
-                  </p>
-                </div> */}
               </CardContent>
             </Card>
           </div>
