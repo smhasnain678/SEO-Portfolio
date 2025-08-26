@@ -9,15 +9,14 @@ const ExperienceSection = () => {
       period: "June 2025 - September 2025",
       location: "Hyderabad, Pakistan",
       achievements: [
-        "Increased organic traffic by 300% for 15+ client websites",
+        "Worked closely with a diverse team of SEO specialists, content creators and developers",
         "Managed guest posting campaigns with 200+ high-authority publications",
-        "Led a team of 5 SEO specialists and content writers",
-        "Developed SEO strategies that generated $2M+ in revenue for clients"
+        "Led a team of 5 SEO specialists and content writers"
       ]
     },
     {
       title: "Coordinator",
-      company: "Leopards Headquarter",
+      company: "Leopards Courier Services (Headquarter)",
       period: "Nov 2025 - Jan 2026",
       location: "Karachi, Pakistan",
       achievements: [

@@ -3,8 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Facebook, href: 'https://www.facebook.com/profile.php?id=100073144076390&rdid=ID8texO8isOzqKju&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17CdZUk92J%2F#', label: 'Facebook' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Instagram, href: '#', label: 'Instagram' },
   ];
@@ -14,7 +13,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
-            I am <span className="text-primary animate-bounce-gentle inline-block">Waleed Rashid</span>
+            I am <span className="text-primary animate-bounce-gentle inline-block">Waleed</span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-semibold text-foreground mb-6">
             SEO Specialist
